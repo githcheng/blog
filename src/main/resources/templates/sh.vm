@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh-CN">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>W3Cfuns---“可容纳内联元素和其他块状元素”</title>
+    <style type="text/css">
+        #div0{
+            width: 60%; background:#400;margin:0 auto;
+            display:block;
+        }
+        a{color:#6ff;display: block}
+    </style>
+</head>
+<body>
+        <img id="div0" src="http://52hts.club/b/sh.jpg">
+
+        <p>网上有很多种答案：其一先写HTML后写CSS;先写CSS后写HTML;其二两者同时写。如果让一个人编写代码，让他先写HTML,写完后 HTML不能修改了，然后写CSS，如果他可以写出来，
+            那这个人一定是一个水平非常高的Builder了!所以对于初学者，多数情况下建议同时编写，</p>
+</body>
+</html>

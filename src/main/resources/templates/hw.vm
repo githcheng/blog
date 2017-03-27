@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>W3Cfuns---“可容纳内联元素和其他块状元素”</title>
+    <style type="text/css">
+        #div0{width:50%; height:600px; background:#400;}
+        #div1{width:3000px; height:300px; background:#900;display: inline-block}
+        #div2{width:50%; height:100px; background:#090;display: inline-block}
+        a{color:#6ff;display: block}
+    </style>
+</head>
+<body>
+
+        <div id="div0">
+            <div id="div2"></div>
+            <div id="div1"></div>
+            <a href="#">可容纳内联元素和其他块状元素</a>
+            <a href="#">LOVE css</a>
+        </div>
+</body>
+</html>

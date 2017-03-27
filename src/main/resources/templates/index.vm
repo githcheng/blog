@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh-CN">
+<html lang="zh-CN">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>首页</title>
+    <style type="text/css">
+
+        #nav{
+            width:90%;
+            height:35px;
+            background:#CCC;/*为了便于查看区域范围大小，故而加个背景色*/
+            margin:0 auto;/*水平居中*/
+            margin-top:30px;/*距离顶部30px*/
+        }
+
+        #nav ul{
+            width:90%;
+            height:35px;
+            list-style:none;
+        }
+
+        #nav ul li{
+            float:left;
+            /*background:#f00;*/
+            line-height:35px;
+            text-align:center;
+            margin-right:1px;
+            /*padding:0 30px;*/
+        }
+
+        body,div,ul,li{padding:0; margin:0;}
+        body,div,ul,li,a{font-size:15px;}
+        #nav ul li a{padding:0 10px;float:left;display:block; height:35px; color:#333; text-decoration:none;/*background:#0FF;*/}
+        #nav ul li a:hover{background:#000;color:#fff; /*text-decoration:underline;*/}
+
+
+        ul{
+            width:90%;
+            height:35px;
+            list-style:none;
+            background:#CCC;/*为了便于查看区域范围大小，故而加个背景色*/
+            margin:0 auto;/*水平居中*/
+            margin-top:30px;/*距离顶部30px*/
+        }
+        ul li{
+            float:left;
+            /*background:#f00;*/
+            line-height:35px;
+            text-align:center;
+            margin-right:1px;
+            /*padding:0 30px;*/
+        }
+        ul li a{padding:0 10px;float:left;display:block; height:35px; color:#333; text-decoration:none;/*background:#0FF;*/}
+        ul li a:hover{background:#000;color:#fff; /*text-decoration:underline;*/}
+
+        #div1{float:left;width:100px; height:500px; background:#900;margin: 0 0 3px 10px;}
+        #div2{float:left;width:200px; height:500px; background:#090;margin: 0 0 3px 10px;}
+        #div3{clear: both;float:left;width:300px; height:100px; background:#009;margin: 0 0 3px 10px;}
+        .clear {clear: both}
+    </style>
+</head>
+<body>
+
+    <div id="nav">
+
+        <ul>
+            <li><a href="http://www.w3cfuns.com">W3Cfuns</a></li>
+            <li><a href="http://52hts.club/b/sh.jpg">厘米学院</a></li>
+            <li><a href="http://52hts.club/b/sh.jpg">培训课程</a></li>
+            <li><a href="http://52hts.club/b/sh.jpg">我要充电</a></li>
+            <li><a href="http://52hts.club/b/sh.jpg">前端职业生涯</a></li>
+            <li><a href="http://52hts.club/b/sh.jpg">课程答疑</a></li>
+        </ul>
+
+    </div>
+
+    <ul>
+        <li><a href="http://www.w3cfuns.com">W3Cfuns</a></li>
+        <li><a href="http://52hts.club/b/sh.jpg">厘米学院</a></li>
+        <li><a href="http://52hts.club/b/sh.jpg">培训课程</a></li>
+        <li><a href="http://52hts.club/b/sh.jpg">我要充电</a></li>
+        <li><a href="http://52hts.club/b/sh.jpg">前端职业生涯</a></li>
+        <li><a href="http://52hts.club/b/sh.jpg">课程答疑</a></li>
+    </ul>
+
+    <div id="div1"></div>
+    <div id="div2"></div>
+##    <div class="clear"></div>
+    <div id="div3"></div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Simple example - Editor.md examples</title>
+    <link rel="stylesheet" href="/css/editormd.min.css" />
+    <link rel="shortcut icon" href="https://pandao.github.io/editor.md/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+
+<form method="post" action="/receive">
+    <div class="editormd" id="test-editormd">
+        <textarea class="editormd-markdown-textarea" name="test-editormd-markdown-doc"></textarea>
+        <!-- html textarea 需要开启配置项 saveHTMLToTextarea == true -->
+        <textarea class="editormd-html-textarea" name="test-editormd-html-code"></textarea>
+    </div>
+    <input type="submit" name="submit" value="提交表单 Submit" style="padding: 5px;" />
+</form>
+
+
+<script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="/lib/editormd.min.js"></script>
+<script type="text/javascript">
+    var testEditor = editormd("test-editormd", {
+        width  : "90%",
+        height : 640,
+        path   : "/lib/elib/",
+        saveHTMLToTextarea : true
+    });
+
+//    var markdown = testEditor.getMarkdown();       // 获取 Markdown 源码
+//    console.log(markdown)
+    testEditor.getHTML();           // 获取 Textarea 保存的 HTML 源码
+    testEditor.getPreviewedHTML();  // 获取预览窗口里的 HTML，在开启 watch 且没有开启 saveHTMLToTextarea 时使用
+</script>
+
+</body>
+
+</html>

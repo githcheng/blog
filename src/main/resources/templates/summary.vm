@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh-CN">
+<html lang="zh-CN">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>W3Cfuns---“可容纳内联元素和其他块状元素”</title>
+    <style type="text/css">
+
+        ul{
+            width:90%;
+            height:35px;
+            list-style:none;
+            background:#CCC;/*为了便于查看区域范围大小，故而加个背景色*/
+        }
+        ul li{
+            float:left;
+            /*background:#f00;*/
+            line-height:35px;
+            text-align:center;
+            margin-right:1px;
+            /*padding:0 30px;*/
+        }
+        ul li a{padding:0 10px;float:left;display:block; height:35px; color:#333; text-decoration:none;/*background:#0FF;*/}
+        ul li a:hover{background:#000;color:#fff; /*text-decoration:underline;*/}
+
+
+        body,div,ul,li{padding:0; margin:0;}
+        body,div,ul,li,a{font-size:15px;}
+        .clear {clear: both}
+
+        #logo {float: left}
+        #header {
+            width:90%;
+            height:35px;
+            list-style:none;
+            background:#009;/*为了便于查看区域范围大小，故而加个背景色*/
+            margin:0 auto;/*水平居中*/
+            margin-top:30px;/*距离顶部30px*/
+        }
+
+        #banner {
+            width:1800px;
+            height:300px;
+            list-style:none;
+            background:#987;/*为了便于查看区域范围大小，故而加个背景色*/
+            margin:0 auto;/*水平居中*/
+            margin-top:30px;/*距离顶部30px*/
+        }
+
+        #content {
+            width:90%;
+            height:1200px;
+            list-style:none;
+            background:#087;/*为了便于查看区域范围大小，故而加个背景色*/
+            margin:0 auto;/*水平居中*/
+            margin-top:10px;/*距离顶部30px*/
+        }
+
+        #leftArticle {float:left;width:900px;}
+        #rightInfo {float:left;width:600px;}
+        #rightInfo dl {
+            padding-left: 40px;
+        }
+        #rightInfo dl dt {background : #657 }
+    </style>
+</head>
+<body>
+
+    <div id="header">
+        <div id="logo">
+            <a href="http://www.w3cstudy.com"><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1490466910344&di=c61edee654b18def4b3e5b4bd6ec5796&imgtype=0&src=http%3A%2F%2Fshop58666747.tbqw.com%2Flogo.png" /></a>
+        </div>
+        <ul id="nav">
+            <li><a href="http://52hts.club/b/sh.jpg">首 页</a></li>
+            <li><a href="http://www.w3cstudy.com/course.aspx">培训课程</a></li>
+            <li><a href="http://www.w3cstudy.com/students.aspx">优秀学员</a></li>
+            <li><a href="http://www.w3cstudy.com/faq.aspx">课程疑问</a></li>
+            <li><a href="http://www.w3cstudy.com/career.aspx">职业生涯</a></li>
+            <li><a href="http://www.w3cfuns.com/">学员社区</a></li>
+            <li><a href="http://blog.w3cstudy.com/">官方博客</a></li>
+            <li><a href="http://www.w3cstudy.com/address.aspx">学院地址</a></li>
+        </ul>
+    </div>
+    <div id="banner">
+        <a href="http://www.w3cstudy.com"><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1490467945391&di=cde9aab0ebcbac6c1b73e293e7ec7ef2&imgtype=0&src=http%3A%2F%2Fwww.xsxphoto.com%2Fwork%2Fhuayulianqing%2Fimages%2Fa_21.jpg" /></a>
+    </div>
+
+    <div id="content">
+        <div id="leftArticle">
+            <a href="http://blog.w3cstudy.com/?p=5"><img src="http://www.yn.xinhuanet.com/travel/2016-03/02/135147472_14568897853951n.jpg" /></a>
+            <h1><a href="http://blog.w3cstudy.com/?p=5">Web前端开发工程师好找工作吗？</a></h1>
+            <p>据09年全国Web前端开发行业调查统计显示，09年大型企业对于行业调查行业调查统计显示，09年大型企业对于Web前端开发人才行业调查统计显示，09年大型企业对于Web前端开发人才统计显示，09年大型企业对于Web前端开发人才Web前端开发人才需求紧缺。 Web前端开发目前是一种新兴职业，专业的前端开发人员绝大部分存在于大型企业中，如腾讯、百度等，换种说法就是：选择从事Web前端开发就等于你的一只脚已经迈进了腾讯、百度等高薪企业。</p>
+            <p>据09年全国Web前端开发行业调查统计显示，09年大型企业对于Web前端开发人才需求紧缺。 Web前端开发目前是一种新兴职业，专业的前端开发人员绝大部分存在于大型企业中，如腾讯、百度等，换种说法就是：选择从事Web前端开发就等于你的一只脚已经迈进了腾讯、百度等高薪企业。</p>
+            <p>据09年全国Web前端开发行业调查统计显示，09年大型企业对于Web前端开发人才需求紧缺。 Web前端开发目前是一种新兴职业，行业调查统计显示，09年大型企业对于Web前端开发人才专业的前端开发人员绝大部分存在于大型企业中，如腾讯、百度等，换种说法就是：选择从事Web前端开发就等于你的一只脚已经迈进了腾讯、百度等高薪企业。</p>
+
+        </div>
+        <div id="rightInfo">
+
+            <dl>
+                <dt>职业生涯</dt>
+                <dd><a href="http://blog.w3cstudy.com/?p=60">Web前端开发工程师需要掌握哪些核心技能？</a></dd>
+                <dd><a href="http://blog.w3cstudy.com/?p=51">我是程序员，有必要进行web前端开发的学习吗?</a></dd>
+                <dd><a href="http://blog.w3cstudy.com/?p=32">我是网站美工，目前发展遇到瓶颈，该如何解决？</a></dd>
+                <dd><a href="http://blog.w3cstudy.com/?p=22">我适合从事web前端开发行业吗？</a></dd>
+                <dd><a href="http://blog.w3cstudy.com/?p=15">Web前端工程师如何给自己定位？</a></dd>
+                <dd><a href="http://blog.w3cstudy.com/?p=5">Web前端开发工程师好找工作吗？</a></dd>
+            </dl>
+
+
+            <dl>
+                <dt>生活常识</dt>
+                <dd><a href="http://blog.w3cstudy.com/?p=60">Web前端开发工程师需要掌握哪些核心技能？</a></dd>
+                <dd><a href="http://blog.w3cstudy.com/?p=51">我是程序员，有必要进行web前端开发的学习吗?</a></dd>
+                <dd><a href="http://blog.w3cstudy.com/?p=32">我是网站美工，目前发展遇到瓶颈，该如何解决？</a></dd>
+                <dd><a href="http://blog.w3cstudy.com/?p=22">我适合从事web前端开发行业吗？</a></dd>
+                <dd><a href="http://blog.w3cstudy.com/?p=15">Web前端工程师如何给自己定位？</a></dd>
+                <dd><a href="http://blog.w3cstudy.com/?p=5">Web前端开发工程师好找工作吗？</a></dd>
+                <dd><a href="http://blog.w3cstudy.com/?p=60">Web前端开发工程师需要掌握哪些核心技能？</a></dd>
+                <dd><a href="http://blog.w3cstudy.com/?p=51">我是程序员，有必要进行web前端开发的学习吗?</a></dd>
+                <dd><a href="http://blog.w3cstudy.com/?p=32">我是网站美工，目前发展遇到瓶颈，该如何解决？</a></dd>
+                <dd><a href="http://blog.w3cstudy.com/?p=22">我适合从事web前端开发行业吗？</a></dd>
+                <dd><a href="http://blog.w3cstudy.com/?p=15">Web前端工程师如何给自己定位？</a></dd>
+                <dd><a href="http://blog.w3cstudy.com/?p=5">Web前端开发工程师好找工作吗？</a></dd>
+                <dd><a href="http://blog.w3cstudy.com/?p=60">Web前端开发工程师需要掌握哪些核心技能？</a></dd>
+                <dd><a href="http://blog.w3cstudy.com/?p=51">我是程序员，有必要进行web前端开发的学习吗?</a></dd>
+                <dd><a href="http://blog.w3cstudy.com/?p=32">我是网站美工，目前发展遇到瓶颈，该如何解决？</a></dd>
+                <dd><a href="http://blog.w3cstudy.com/?p=22">我适合从事web前端开发行业吗？</a></dd>
+                <dd><a href="http://blog.w3cstudy.com/?p=15">Web前端工程师如何给自己定位？</a></dd>
+                <dd><a href="http://blog.w3cstudy.com/?p=5">Web前端开发工程师好找工作吗？</a></dd>
+                <dd><a href="http://blog.w3cstudy.com/?p=60">Web前端开发工程师需要掌握哪些核心技能？</a></dd>
+                <dd><a href="http://blog.w3cstudy.com/?p=51">我是程序员，有必要进行web前端开发的学习吗?</a></dd>
+                <dd><a href="http://blog.w3cstudy.com/?p=32">我是网站美工，目前发展遇到瓶颈，该如何解决？</a></dd>
+                <dd><a href="http://blog.w3cstudy.com/?p=22">我适合从事web前端开发行业吗？</a></dd>
+                <dd><a href="http://blog.w3cstudy.com/?p=15">Web前端工程师如何给自己定位？</a></dd>
+                <dd><a href="http://blog.w3cstudy.com/?p=5">Web前端开发工程师好找工作吗？</a></dd>
+            </dl>
+
+        </div>
+    </div>
+
+    <div id="footer"></div>
+
+</body>
+</html>
