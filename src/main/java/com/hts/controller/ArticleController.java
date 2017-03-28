@@ -40,6 +40,7 @@ public class ArticleController {
         System.out.println("id="+id);
         Blog blog = blogService.getBlogById(id);
         logger.info("blog:{}", JSON.toJSON(blog));
+        model.getModel().put("title",blog.getTitle());
         model.getModel().put("markdownContent",blog.getHtml());
         return model;
     }
