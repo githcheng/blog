@@ -10,12 +10,16 @@
 <body>
 
 <form method="post" action="/receive">
+
+    <input type="text" name="id" value="$id" hidden="hidden"/>
+    <input type="text" name="uniq" value="$uniq" hidden="hidden"/>
     <input type="text" name="title" value="$title"/>
     <select name="type">
-        <option value="volvo">Volvo</option>
-        <option value="saab">Saab</option>
-        <option value="fiat">Fiat</option>
-        <option value="audi">Audi</option>
+        <option value="JAVA">JAVA</option>
+        <option value="ZooKeeper">ZooKeeper</option>
+        <option value="Kafka">Kafka</option>
+        <option value="Spring">Spring</option>
+        <option value="tomcat/jetty">tomcat/jetty</option>
     </select>
     <input type="submit" name="submit" value="提交表单 Submit" style="padding: 5px;" />
     <div class="editormd" id="test-editormd">

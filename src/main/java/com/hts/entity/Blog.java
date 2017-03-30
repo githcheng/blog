@@ -2,7 +2,7 @@ package com.hts.entity;
 
 public class Blog {
 
-    private String id;
+    private Long id;
     private String uniq;
     private String title;
     private String html;
@@ -42,11 +42,11 @@ public class Blog {
         this.markdown = markdown;
     }
 
-    public String getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

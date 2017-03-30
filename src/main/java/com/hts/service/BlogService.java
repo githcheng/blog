@@ -1,6 +1,7 @@
 package com.hts.service;
 
 import java.sql.Date;
+import java.util.List;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -28,5 +29,13 @@ public class BlogService {
 
     public Blog getBlogById(String id){
         return blogDAO.getBlogById(id);
+    }
+
+    public int update(Blog blog) {
+        return blogDAO.update(blog);
+    }
+
+    public List<Blog> getBlogList(long offset, long limit, String sort) {
+        return blogDAO.getBlogList(offset,limit,sort);
     }
 }

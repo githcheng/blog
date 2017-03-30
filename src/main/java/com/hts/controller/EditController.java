@@ -44,6 +44,8 @@ public class EditController {
             return model;
         }
         logger.info("blog:{}", JSON.toJSON(blog));
+        model.getModel().put("id",blog.getId());
+        model.getModel().put("uniq",blog.getUniq());
         model.getModel().put("title",blog.getTitle());
         model.getModel().put("markdownContent",blog.getMarkdown());
         return model;
