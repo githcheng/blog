@@ -30,7 +30,7 @@ public class ArticleController {
     
     @RequestMapping(value = "/article", method = RequestMethod.GET)
     public ModelAndView sayWorld(
-            @RequestParam String id,
+            @RequestParam("id") String id,
             HttpServletRequest request,
             HttpServletResponse response
     ) {
