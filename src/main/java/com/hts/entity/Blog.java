@@ -14,6 +14,14 @@ public class Blog {
     public Blog() {
     }
 
+    public static Blog newBlog(){
+        Blog blog = new Blog();
+        blog.setId(0L);
+        blog.setUniq("");
+        blog.setTitle("");
+        blog.setMarkdown("");
+        return blog;
+    }
 
     public Blog(String uniq, String title, String markdown,
                 String html, Long createTime, long updateTime) {

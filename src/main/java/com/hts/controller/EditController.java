@@ -34,16 +34,17 @@ public class EditController {
 
         ModelAndView model = new ModelAndView("edit");
 
+        Blog blog = null;
         if (StringUtils.isBlank(id)){
             logger.info("id:{}",id);
-            return model;
+            blog = Blog.newBlog();
+        } else {
+            blog = blogService.getBlogById(id);
+            logger.info("blog:{}", JSON.toJSON(blog));
         }
-        Blog blog = blogService.getBlogById(id);
-
         if (blog == null){
-            return model;
+            blog = Blog.newBlog();
         }
-        logger.info("blog:{}", JSON.toJSON(blog));
         model.getModel().put("id",blog.getId());
         model.getModel().put("uniq",blog.getUniq());
         model.getModel().put("title",blog.getTitle());
