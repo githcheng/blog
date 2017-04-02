@@ -28,7 +28,7 @@
 
         #foreach($item in $blogList)
             <a href="/article?id=$item.id">$item.title</a>
-            <p></p>
+            <br>
         #end
 
     </div>
